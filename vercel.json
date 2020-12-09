@@ -1,0 +1,10 @@
+{
+  "name": "worker-server",
+  "version": 2,
+  "github": {
+    "silent": true
+  },
+  "routes": [
+    {"src": "/(.*)","dest": "https://white-recipe-ed5d.mjmk628ayw.workers.dev/$1"}
+  ]
+}
